@@ -36,7 +36,7 @@ const MainSearch = () => {
         <Col xs={8} className='mx-auto my-3'>
           <h1 className='display-1'>Remote Jobs Search</h1>
         </Col>
-        <Col xs={2}>
+        <Col xs={2} className='mt-3'>
           <Link to='/favourites'>Favourites</Link>
         </Col>
         <Col xs={10} className='mx-auto'>

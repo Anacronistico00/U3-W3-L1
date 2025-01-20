@@ -19,6 +19,7 @@ const Job = ({ data }) => {
       </Col>
       <Col xs={3} className='text-center'>
         <Button
+          variant='success'
           onClick={() => {
             dispatch({
               type: 'ADD_TO_FAVOURITES',
